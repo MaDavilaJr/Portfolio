@@ -6,46 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&display=swap" rel="stylesheet">
     <link rel="Stylesheet" href="style.css">
   </head>
 <body>
     <header>
         
-        <h1>Portfolio</h1>
+        <h1>Miguel A. Davila Jr's Portfolio</h1>
         <div>
-        <ul>
-            <li>
-                <a href="#About-Me">About Me</a>
-            </li>
-            <li>
-                <a href="#Contacts">Contacts</a>
-            </li>
-            <li>
-                <a href="#Projects">Projects</a>
-            </li>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#About-Me">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contacts">Contacts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://github.com/MaDavilaJr" class="nav-link" >GitHub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/miguel-davila-jr" class="nav-link" >LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-        </ul>
         </div>
     </header>
     <div class="Hero"></div>
 
-    <section id="About-Me">
-        <p>A Californian raised in east Los Angeles, an aspiring programmer and software developer with an interest in computer engineering. </p>
-
-    </section>
-    <section id="Contacts">
-        <a href="https://www.linkedin.com/in/miguel-davila-jr" class="btn btn-primary">LinkedIn</a>
-    </section>
     <section id="Projects">
         <div class="card">
 
             <div class="container">
               <img src="./Assets/Img/me_gradient.jpg" id="avatar" alt="LandingPg">
-              <h4><b>Miguel A. Davila Jr</b></h4>
+              <h4>Miguel A. Davila Jr</h4>
               <p>UCLA bootcamp graduate</p>
+              <p>A Californian raised in east Los Angeles, an aspiring programmer and software developer with an interest in computer engineering. </p>
             </div>
           </div>
           <div class="card">
+
 
             <div class="container">
               <h4><b>Final-Songlist Bulletin</b></h4>
@@ -75,6 +89,9 @@
         </div>
     </section>
 
+    <footer>
+      <p class="footer">Thanks for visiting!</p>
+    </footer>
 </body>
 </html>
 
